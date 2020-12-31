@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    // 이 곳에 아이디 값 할당, 할당된 아이디부터 먼저 화면에 나온다.
     <fragment
         android:id="@+id/mainFragment"
         android:layout_width="match_parent"
