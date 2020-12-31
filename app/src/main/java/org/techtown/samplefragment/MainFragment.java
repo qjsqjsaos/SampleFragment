@@ -13,7 +13,7 @@ public class MainFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.fragment_main, container, false);
+        ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.fragment_main, container, false);//인플레이션한다(메모리의 객체로 만들어준다), attachToRoot는 지금 당장 바꾸는 게 아니기 때문에 false로 한다.
 
         Button button = rootView.findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
